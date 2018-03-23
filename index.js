@@ -1,6 +1,6 @@
 const DiscordRPC = require("discord-rpc");
 
-const ClientId = '426809152950632448';
+const ClientId = 'YOUR ID';
 
 DiscordRPC.register(ClientId);
 
@@ -19,8 +19,8 @@ rpc.on('ready', () => {
     startTimestamp: new Date(),
     partySize: 1,
     partyMax: 1,
-	matchSecret: 'slithers',
-	spectateSecret: 'sniff',
+    matchSecret: 'slithers',
+    spectateSecret: 'sniff',
     joinSecret: 'boop',
   });
 });
